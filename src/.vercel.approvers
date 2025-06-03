@@ -1,4 +1,5 @@
 # Migrated CODEOWNERS rule: * @aldosch
 @aldosch:notify
 
-@Basepad:silent
+# Migrated CODEOWNERS rule: * @oboysal
+@oboysal:notify
