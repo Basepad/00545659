@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@vercel-private/code-owners':
+        specifier: ^1.0.8
+        version: 1.0.8
       next:
         specifier: 15.3.3
         version: 15.3.3(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -600,6 +603,11 @@ packages:
     resolution: {integrity: sha512-hHKFx+opG5BA3/owMXon8ypwSotBGTdblG6oda/iOu9+OEYnk0cxD2uIcGyGT8jCK578kV+xMrNxqbn8Zjlpgw==}
     cpu: [x64]
     os: [win32]
+
+  '@vercel-private/code-owners@1.0.8':
+    resolution: {integrity: sha512-VpVaUooHkQJ5LzIuUzyx1sNNmAEj3FZKOn1UOU91aYpJ6+LKxEL0/2LfbqsQOHJG4k1Kr9w+w1e10A09yVsmuQ==, tarball: https://vercel-private-registry.vercel.sh/registry/@vercel-private/code-owners/-/@vercel-private/code-owners-1.0.8.tgz}
+    engines: {node: '>=16.18'}
+    hasBin: true
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -2281,6 +2289,8 @@ snapshots:
 
   '@unrs/resolver-binding-win32-x64-msvc@1.7.8':
     optional: true
+
+  '@vercel-private/code-owners@1.0.8': {}
 
   acorn-jsx@5.3.2(acorn@8.14.1):
     dependencies:
