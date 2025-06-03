@@ -1,0 +1,4 @@
+# Migrated CODEOWNERS rule: * @aldosch
+@aldosch:notify
+
+@Basepad:silent
